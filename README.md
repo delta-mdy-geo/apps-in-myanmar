@@ -1,2 +1,2 @@
 # apps-in-myanmar
-For Geo Delta
+This is apps-in-myanmar repo.
