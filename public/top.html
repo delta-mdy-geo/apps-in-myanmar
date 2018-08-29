@@ -48,7 +48,7 @@
         <a class="mdl-navigation__link" href="latest.html">Latest Apps</a>
         <a class="mdl-navigation__link" href="pub.html">Publisher</a>
         <a class="mdl-navigation__link" href="search.html">Search</a>
-         <a class="mdl-navigation__link" href="admin.html">Admin</a>
+         
          <a class="mdl-navigation__link" href="login.html">Login</a>
       </nav>
     </div>
@@ -61,7 +61,7 @@
       <a class="mdl-navigation__link" href="latest.html">Latest Apps</a>
        <a class="mdl-navigation__link" href="pub.html">Publisher</a>
       <a class="mdl-navigation__link" href="search.html">Search</a>
-       <a class="mdl-navigation__link" href="admin.html">Admin</a>
+       
          <a class="mdl-navigation__link" href="login.html">Login</a>
     </nav>
   </div>
@@ -186,7 +186,29 @@
   </ul>
 
 
-  
+<script>
+//admin.js			
+ firebase.auth().onAuthStateChanged(function(user) { 
+     if (user) { 
+           // Do Nothing        
+     }else{            
+       // redirect to login page 
+       window.location.replace("login.html") 
+     }                                       
+ });
+
+function logOut(){
+	firebase.auth().signOut();
+}
+
+//app.js
+fb = {};
+fb = firebase;
+
+function fnRead(path, successFunction, errorFunction){
+		if(!path || !successFunction || !errorFunction) return;
+		fb.database().ref(path).once('value').then(successFunction, errorFunction);
+</script>  
 
 
 
