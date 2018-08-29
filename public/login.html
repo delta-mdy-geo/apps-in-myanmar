@@ -9,19 +9,33 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="login.css">
 	<script type="text/javascript" src="js/materialize.js"></script>
+
     </body>
 
 	<title>Apps in Myanmar - CU MDY</title>
 
-  
+	<!-- update the version number as needed -->
+    <script src="/__/firebase/5.3.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script src="/__/firebase/5.3.1/firebase-auth.js"></script>
+    <script src="/__/firebase/5.3.1/firebase-database.js"></script>
+    <script src="/__/firebase/5.3.1/firebase-messaging.js"></script>
+    <script src="/__/firebase/5.3.1/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script src="/__/firebase/init.js"></script>
     <link href="css/material.min.css" rel="stylesheet">
+	
+<!--For firebase--->	
+<script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+
 
     
   </head>
   <body>
-   
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
@@ -35,8 +49,8 @@
         <a class="mdl-navigation__link" href="latest.html">Latest Apps</a>
         <a class="mdl-navigation__link" href="pub.html">Publisher</a>
         <a class="mdl-navigation__link" href="search.html">Search</a>
-         <a class="mdl-navigation__link" href="admin.html">Admin</a>
-         <a class="mdl-navigation__link" href="login.html">Login</a>
+        <a class="mdl-navigation__link" href="admin.html">Admin</a>
+        <a class="mdl-navigation__link" href="login.html">Login</a>
       </nav>
     </div>
   </header>
@@ -54,60 +68,54 @@
   </div>
   <main class="mdl-layout__content">
     <div class="page-content"><!-- Your content goes here -->
+<!-- The surrounding HTML is left untouched by FirebaseUI.
+     Your app may use that space for branding, controls and other customizations.-->
+<h6>Welcome to AppsIn Myanmar</h6>
+<div id="firebaseui-auth-container"></div>
+<div id="loader">Loading...</div>
 
-      <table border="5">
-        <tr bgcolor="ooeeff">
-          <td>TEAM Roles</td>
-          <td></td>
-          <td>Skills / Requirements</td>
-        </tr>
-        <tr>
-          <td>Team Lead</td>
-          <td>1</td>
-          <td><p>General Passion for all the technologies invovled in creating software. Specific skill and expertise in at least one role is a requirement and is also responsible for monitoring, reporting and proper and timely project execution</p></td>
-        </tr>
-        <tr bgcolor="ffss23">
-          <td>Lead Developer + DevOps</td>
-          <td>1</td>
-          <td>Strongest programming and system administration skills in the group. Sometime the Team Lead can take this role if there is no one else to assign to</td>
-        </tr>
-        <tr>
-          <td>UI/UX Lead</td>
-          <td>1</td>
-          <td>Passtion for design and userability. Someone who can think like a normal user. In this program he/she must have skills in HTML/CSS/JS and must learn a few frameworks such as BootStrap, Material Design, Angular and so on. Use of graphics tools and mockup tools</td>
-        </tr>
-        <tr bgcolor="gg34er">
-          <td>UI/UX Dev</td>
-          <td>1</td>
-          <td>Same as above</td>
-        </tr>
-         <tr>
-          <td>Dev 1</td>
-          <td>1</td>
-          <td>Good logical thinking skill. Confortable with writing and rewriting code and reading and learning from other devs code. Either dev one or two must write code for Unit Test as well</td>
-        </tr>
-        <tr bgcolor="violet">
-          <td>Dev 2</td>
-          <td>1</td>
-          <td>Good logical thinking skill. Confortable with writing and rewriting code and reading and learning from other devs code.</td>
-        </tr>
-        <tr>
-          <td>Test & Documentation</td>
-          <td>1</td>
-          <td>Have clear and conciese writing skills. Understands the value of documention.</td>
-        </tr>
-        <tr bgcolor="green">
-          <td>NOTES:</td>
-          <td></td>
-          <td>Role details are currently being modified and updated and will adapt and change along the way.</td>
-        </tr>
-
-      </table>
-
-  
+	 
+<script> 
+// Initialize the FirebaseUI Widget using Firebase.
+var ui = new firebaseui.auth.AuthUI(firebase.auth());
 
 
-    <footer class="mdl-mega-footer">
+var uiConfig = {
+  callbacks: {
+    signInSuccessWithAuthResult: function(authResult, redirectUrl) {
+      // User successfully signed in.
+      // Return type determines whether we continue the redirect automatically
+      // or whether we leave that to developer to handle.
+      return true;
+    },
+    uiShown: function() {
+      // The widget is rendered.
+      // Hide the loader.
+      document.getElementById('loader').style.display = 'none';
+    }
+  },
+  // Will use popup for IDP Providers sign-in flow instead of the default, redirect.
+  signInFlow: 'popup',
+  signInSuccessUrl: 'admin.html',
+  signInOptions: [
+    // Leave the lines as is for the providers you want to offer your users.
+    //firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+    //firebase.auth.FacebookAuthProvider.PROVIDER_ID,
+    //firebase.auth.TwitterAuthProvider.PROVIDER_ID,
+    //firebase.auth.GithubAuthProvider.PROVIDER_ID,
+    firebase.auth.EmailAuthProvider.PROVIDER_ID,
+    //firebase.auth.PhoneAuthProvider.PROVIDER_ID
+  ],
+  // Terms of service url.
+  tosUrl: '<your-tos-url>',
+  // Privacy policy url.
+  privacyPolicyUrl: '<your-privacy-policy-url>'
+};
+
+ui.start('#firebaseui-auth-container',uiConfig);
+</script>
+
+<footer class="mdl-mega-footer">
   <div class="mdl-mega-footer__middle-section">
 
     <div class="mdl-mega-footer__drop-down-section">
@@ -167,5 +175,12 @@
     </div>
   </main>
 </div>
+
+  
+
+
+    
+
    
   </body>
+  </html>

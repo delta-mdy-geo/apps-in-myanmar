@@ -14,13 +14,26 @@
 
 	<title>Apps in Myanmar - CU MDY</title>
 
-  
+ 	<!-- update the version number as needed -->
+    <script src="/__/firebase/5.3.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script src="/__/firebase/5.3.1/firebase-auth.js"></script>
+    <script src="/__/firebase/5.3.1/firebase-database.js"></script>
+    <script src="/__/firebase/5.3.1/firebase-messaging.js"></script>
+    <script src="/__/firebase/5.3.1/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script src="/__/firebase/init.js"></script>
+    <link href="css/material.min.css" rel="stylesheet">
+	
+<!--For firebase--->	
+<script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" /> 
     <link href="css/material.min.css" rel="stylesheet">
 
     
   </head>
   <body>
-    
+   
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
@@ -33,7 +46,7 @@
         <a class="mdl-navigation__link" href="index.html">Home</a>
         <a class="mdl-navigation__link" href="top.html">Top Apps</a>
         <a class="mdl-navigation__link" href="latest.html">Latest Apps</a>
-         <a class="mdl-navigation__link" href="pub.html">Publisher</a>
+        <a class="mdl-navigation__link" href="pub.html">Publisher</a>
         <a class="mdl-navigation__link" href="search.html">Search</a>
          <a class="mdl-navigation__link" href="admin.html">Admin</a>
          <a class="mdl-navigation__link" href="login.html">Login</a>
@@ -55,29 +68,48 @@
   <main class="mdl-layout__content">
     <div class="page-content"><!-- Your content goes here -->
 
-     <div class="col s12 m12">
-      <div class="card darken-1 hoverable">
-        <div class="card-content center-align">
-        <!-- Textfield with Floating Label -->
+      <ul class="collection">
+    <li class="collection-item avatar">
+      <img src="images/shwe.jpg" alt="" class="circle">
+      <span class="title">Ko Kyaw Kyaw</span>
+      <p>Ko Kyaw Kyaw started his career as a Web Application Developer since 2007. He started learning Mobile Application Development of Andriod and iOS on 2011. Ko Kyaw Kyaw has rich knowledge of Web Developing, SEO, SEM, Mobile Application Analisis, Mobile Application Development, Application Management and Maintenance.
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="images/fmm.jpeg" alt="" class="circle">
+      <span class="title">Htin Aung</span>
+      <p>Htin Aung was an important author and scholar of Burmese culture and history. Educated at Oxford and Cambridge, Htin Aung wrote severak books on Burmese history and culture in both Burmese and English.
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="images/iabidan.jpeg" alt="" class="circle">
+      <span class="title">Sei Thu Htun</span>
+      <p>Sei Thu Htun is an Andriod developer that currently has 1 apps in Google Play, is active since 2016, and has in total colledted about 50 thousands install.
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="images/ygnt.jpeg" alt="" class="circle">
+      <span class="title">Saw Ye Maw</span>
+      <p>
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="images/food.jpg" alt="" class="circle">
+      <span class="title">Kyaw Zay Lat</span>
+      <p>
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+  </ul>
 
-<form action="#">
-  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-    <input class="mdl-textfield__input" type="text" id="search">
-    <label class="mdl-textfield__label" for="search">Search...</label>
-  </div>
-  <!-- FAB button with ripple -->
-<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-  <i class="material-icons">Search</i>
-</button>
-</form> 
-          
-        </div>
-        <div class="card-action">
-         
-        </div>
-      </div>
-    </div>
-  </div>
+	
+    	
+
+  
     <footer class="mdl-mega-footer">
   <div class="mdl-mega-footer__middle-section">
 

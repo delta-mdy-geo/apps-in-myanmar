@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/material.min.css">
+<script src="js/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script type="text/javascript" src="js/materialize.js"></script>
+    </body>
+
+	<title>Apps in Myanmar - CU MDY</title>
+	<!-- update the version number as needed -->
+    <script src="/__/firebase/5.3.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script src="/__/firebase/5.3.1/firebase-auth.js"></script>
+    <script src="/__/firebase/5.3.1/firebase-database.js"></script>
+    <script src="/__/firebase/5.3.1/firebase-messaging.js"></script>
+    <script src="/__/firebase/5.3.1/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script src="/__/firebase/init.js"></script>
+    <link href="css/material.min.css" rel="stylesheet">
+	<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>	
+	
+<!--For firebase--->	
+<script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+  
+    <link href="css/material.min.css" rel="stylesheet">
+
+    
+  </head>
+  <body>
+   
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Apps in Myanmar</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="index.html">Home</a>
+        <a class="mdl-navigation__link" href="top.html">Top Apps</a>
+        <a class="mdl-navigation__link" href="latest.html">Latest Apps</a>
+        <a class="mdl-navigation__link" href="pub.html">Publisher</a>
+        <a class="mdl-navigation__link" href="search.html">Search</a>
+         <a class="mdl-navigation__link" href="admin.html">Admin</a>
+         <a class="mdl-navigation__link" href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Apps in Myanmar</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="index.html">Home</a>
+      <a class="mdl-navigation__link" href="top.html">Top Apps</a>
+      <a class="mdl-navigation__link" href="latest.html">Latest Apps</a>
+       <a class="mdl-navigation__link" href="pub.html">Publisher</a>
+      <a class="mdl-navigation__link" href="search.html">Search</a>
+       <a class="mdl-navigation__link" href="admin.html">Admin</a>
+         <a class="mdl-navigation__link" href="login.html">Login</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content"><!-- Your content goes here -->
+
+<br>
+  <a class="btn-floating btn-large waves-effect waves-light red" href="about.html"><i class="material-icons">J</i></a><br><br>
+		<table>
+			<tr>
+				<td>App Name :</td>
+				<td><input type="text" name="app_name" id = "app_name"/></td>
+			</tr>
+			<tr>
+				<td>Updated :</td>
+				<td><input type="text" name="updated" id="updated"/></td>
+			</tr>
+			<tr>
+				<td>Size :</td>
+				<td><input type="text" name="user_id" id="size"/></td>
+			</tr>
+			<tr>
+				<td>Installs :</td>
+				<td><input type="text" name="installs" id="installs"/></td>
+			</tr>
+			<tr>
+				<td>Current Version :</td>
+				<td><input type="text" name="current_version" id="current_version"/></td>
+			</tr>
+			<tr>
+				<td>Requires Android :</td>
+				<td><input type="text" name="requires_android" id="requires_android"/></td>
+			</tr>
+			<tr>
+				<td>Offered By :</td>
+				<td><input type="text" name="offered_by" id="offered_by"/></td>
+			</tr>
+			<tr>
+				<td>Developer :</td>
+				<td><input type="text" name="developer" id="developer"/></td>
+			</tr>			
+			<tr>
+				<td><input type="button" value="Save" onclick="save_user();"/></td>
+				<td><input type="button" value="Update" onclick="update_user();"/></td>
+				<td><input type="button" value="Delete" onclick="delete_user();"/></td>
+			</tr>
+		</table> 
+
+		<script>
+			function save_user(){
+					var app_name = document.getElementById("app_name").value;
+					var updated = document.getElementById("updated").value;
+					var size = document.getElementById("size").value;
+					var installs = document.getElementById("installs").value;
+					var current_version = document.getElementById("current_version").value;
+					var requires_android = document.getElementById("requires_android").value;
+					var offered_by = document.getElementById("offered_by").value;
+					var developer = document.getElementById("developer").value;				
+				
+				//var uid = firebase.database().ref().child('users').push().key;
+				var data = {
+						
+						app_name : app_name,
+						updated : updated,
+						size : size,
+						installs : installs,
+						current_version : current_version,
+						requires_android : requires_android,
+						offered_by : offered_by,
+						developer : developer		
+				
+				};
+				alert(app_name);
+				var updates = {};
+				updates[app_name] = data;
+				firebase.database().ref().update(updates);
+			
+		};			
+
+			function update_user(){
+					var app_name = document.getElementById("app_name").value;
+					var updated = document.getElementById("updated").value;
+					var size = document.getElementById("size").value;
+					var installs = document.getElementById("installs").value;
+					var current_version = document.getElementById("current_version").value;
+					var requires_android = document.getElementById("requires_android").value;
+					var offered_by = document.getElementById("offered_by").value;
+					var developer = document.getElementById("developer").value;				
+				
+				//var uid = firebase.database().ref().child('users').push().key;
+				var data = {
+						
+						app_name : app_name,
+						updated : updated,
+						size : size,
+						installs : installs,
+						current_version : current_version,
+						requires_android : requires_android,
+						offered_by : offered_by,
+						developer : developer		
+				
+				};
+				alert(app_name);
+				var updates = {};
+				updates[app_name] = data;
+				firebase.database().ref().update(updates);		
+			};
+			function delete_user(){
+				var app_name = document.getElementById("app_name").value;
+				
+				firebase.database().ref().child(app_name).remove();
+				alert(app_name);
+			};
+/*//admin.js			
+ firebase.auth().onAuthStateChanged(function(user) { 
+     if (user) { 
+           // Do Nothing        
+     }else{            
+       // redirect to login page 
+       window.location.replace("login.html") 
+     }                                       
+ });
+
+function logOut(){
+	firebase.auth().signOut();
+}
+
+//app.js
+fb = {};
+fb = firebase;
+
+function fnRead(path, successFunction, errorFunction){
+		if(!path || !successFunction || !errorFunction) return;
+		fb.database().ref(path).once('value').then(successFunction, errorFunction);
+}
+//lib.js
+var apps-in-myanmar = {};
+
+(function(){
+function messageHandler(err){
+		if(!!err){
+			console.log(err)
+		}else{
+			console.log("success");
+		}
+	}
+
+	function fnRead(){
+		var path = 'apps-in-myanmar/';
+		fb.data.read(path, successFn, messageHandler);
+		function successFn(snapShot){
+			if(!snapShot){
+				console.log("No data found:");
+			}else{
+				console.log(snapShot.val());
+	  	}
+		}
+	}
+	apps-in-myanmar.Read = fnRead;
+	apps-in-myanmar.Read();
+})()*/			
+		</script>
+	
+    	
+
+ 
+    <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Features</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Updates</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Details</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="#">Specs</a></li>
+        <li><a href="#">Tools</a></li>
+        <li><a href="#">Resources</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Technology</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="works.html">How it works</a></li>
+        <li><a href="#">Patterns</a></li>
+        <li><a href="#">Usage</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contracts</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">FAQ</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="question.html">Questions</a></li>
+        <li><a href="answer.html">Answers</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="mdl-mega-footer__bottom-section">
+    <div class="mdl-logo">Apps in Myanmar</div>
+    <ul class="mdl-mega-footer__link-list">
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Privacy & Terms</a></li>
+    </ul>
+  </div>
+
+</footer>
+    </div>
+  </main>
+</div>
+   
+  </body>

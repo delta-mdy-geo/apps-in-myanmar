@@ -9,21 +9,32 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <link rel="stylesheet" type="text/css" href="login.css">
 	<script type="text/javascript" src="js/materialize.js"></script>
-
     </body>
 
 	<title>Apps in Myanmar - CU MDY</title>
 
-  
+	<!-- update the version number as needed -->
+    <script src="/__/firebase/5.3.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script src="/__/firebase/5.3.1/firebase-auth.js"></script>
+    <script src="/__/firebase/5.3.1/firebase-database.js"></script>
+    <script src="/__/firebase/5.3.1/firebase-messaging.js"></script>
+    <script src="/__/firebase/5.3.1/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script src="/__/firebase/init.js"></script>
     <link href="css/material.min.css" rel="stylesheet">
-
+	
+<!--For firebase--->	
+<script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />  
+    <link href="css/material.min.css" rel="stylesheet">
 
     
   </head>
   <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+   
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
@@ -37,8 +48,8 @@
         <a class="mdl-navigation__link" href="latest.html">Latest Apps</a>
         <a class="mdl-navigation__link" href="pub.html">Publisher</a>
         <a class="mdl-navigation__link" href="search.html">Search</a>
-        <a class="mdl-navigation__link" href="admin.html">Admin</a>
-        <a class="mdl-navigation__link" href="login.html">Login</a>
+         <a class="mdl-navigation__link" href="admin.html">Admin</a>
+         <a class="mdl-navigation__link" href="login.html">Login</a>
       </nav>
     </div>
   </header>
@@ -49,7 +60,7 @@
       <a class="mdl-navigation__link" href="top.html">Top Apps</a>
       <a class="mdl-navigation__link" href="latest.html">Latest Apps</a>
        <a class="mdl-navigation__link" href="pub.html">Publisher</a>
-      <a class="mdl-navigation__link" href="search.html">Search</a>
+      <a class="mdl-navigation__link" href="serch.html">Search</a>
        <a class="mdl-navigation__link" href="admin.html">Admin</a>
          <a class="mdl-navigation__link" href="login.html">Login</a>
     </nav>
@@ -57,33 +68,28 @@
   <main class="mdl-layout__content">
     <div class="page-content"><!-- Your content goes here -->
 
-  
-   
-
+      <h3>FAQ</h3>
       
-     <form action="action_page.php">
+      <h5>Contents</h5>
+
+      <p><a href="answer.html">How to used this CB Bank Mobile Banking app and what kind of services does it provide?</a></p>
+      <p><a href="answer.html"> If I install an APK from this website, will I be able to update the app from the Play Store?</a></p>
+      <p><a href="answer.html">What PERSONAL DATA will company collect?</a></p>
+      <p><a href="answer.html">How long does it takes to develop a mobile app?</a></p>
+      <p><a href="answer.html">I want to know what kinds of features does it have?</a></p>
+      <p><a href="answer.html"> Does it suit for any mobile?</a></p>
+      <p><a href="answer.html"> Any languages can be used in this app and last update?</a></p>
+      
+
+
+	
+    	
+
   
-  <div class="container" >
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
 
-    <button type="submit"><a href="index.html">Login</a></button>
 
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-</form>
-
-<footer class="mdl-mega-footer">
+    <footer class="mdl-mega-footer">
   <div class="mdl-mega-footer__middle-section">
 
     <div class="mdl-mega-footer__drop-down-section">
@@ -143,12 +149,5 @@
     </div>
   </main>
 </div>
-
-  
-
-
-    
-
    
   </body>
-  </html>
