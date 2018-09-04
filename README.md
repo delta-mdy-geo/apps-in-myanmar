@@ -70,12 +70,11 @@ This is apps-in-myanmar repo.
 
 
 
-                                      Abstract
-
-	Apps in Myanmar are applications which were developed in Burmese Developer
-	Users can easily download in this website
-	FrontEnd Dev and UI  Mockups using Material Design ( HTML, CSS, & Javascript  )
-	These applications were also developed with firebase hosting and database.
+         			Abstract
+	Apps in Myanmar are applications which were developed in Burmese Developer
+	Users can easily download in this website
+	FrontEnd Dev and UI  Mockups using Material Design ( HTML, CSS, & Javascript  )
+	These applications were also developed with firebase hosting and database.
 
                                      Acknowledgement
 				     
@@ -84,15 +83,6 @@ We would like to respectfully thanks U Kyaw Swar Soe, Rector of Computer Univers
 We would like to express our Director, U Ravi Chhabra, Director of our Geo-Delta-Mdy group, for his guide way to create our project with successfully and nicely.
 We also wish to express our Supervisor, Daw Ank Phyu Win, Lecture of faculty of Computing, Computer University ( Mandalay ), for her helpful advice, helpful encouragement numerous invaluable suggestion and comments.
 We also great full to all out teachers for Computer University ( Mandalay ) who have taught and guided us during the period of study. Finally, we are thankful to our follow members who work together in this project and we also thanks again for the unity.
-
-
-
-
-
-
-
-
-
 
 
 Declaration
