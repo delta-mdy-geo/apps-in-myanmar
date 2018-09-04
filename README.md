@@ -27,7 +27,7 @@ This is word document.
 					 Date  5.9.2018
 
 
-			Group Members
+						Group Members
 
 	Roll No		Name			Signature		Date
 
