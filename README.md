@@ -90,6 +90,7 @@ This is word document.
                                         Declaration
 
 	The information contained in these applications in Myanmar are true, correct and complete.
+	Most of the applications are shown in this system, not all of application in Myanmar.
 	We understand that any misrepresentation may invalidate my application arrangements. 
 	We noted that all appointments are project details.
 
