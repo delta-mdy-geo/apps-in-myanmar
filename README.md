@@ -1,5 +1,6 @@
 # apps-in-myanmar
 This is apps-in-myanmar repo.
+This is word document.
 					A PROJECT REPORT ON
 					“APPs in Myanmar”
 					
