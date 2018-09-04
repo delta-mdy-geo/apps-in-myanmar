@@ -115,12 +115,12 @@ This is word document.
 
 						  Chapter 1
 					         Introduction
+						 
 	1.1	Introduction
 
-
-	Apps in Myanmar will involve various applications in Myanmar
-	Users can download the applications and also see details that related applications
-	Moreover, users can also see publisher’s details who were written these applications
+            Apps in Myanmar will involve various applications in Myanmar
+	    Users can download the applications and also see details that related applications
+	    Moreover, users can also see publisher’s details who were written these applications
 
 
 	1.2	Background of the system
