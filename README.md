@@ -5,7 +5,7 @@ This is apps-in-myanmar repo.
 					
 					       For
 					   Company Name
-                                GEO MANDALAR INVESTMENT & TECHNOLOGY Co.. ltd
+                             GEO MANDALAR INVESTMENT & TECHNOLOGY Co.. ltd
 				
 					     Director
                                           U Ravi Chhabra
@@ -20,8 +20,9 @@ This is apps-in-myanmar repo.
 			                 Mg Kaung Myat Thu 
 				         Ma Hla Yamin Htike
 					 Ma Hnin Yu Aung
+					 
 			       UNIVERSITY OF COMPUTER STUDIES ( MANDALAY )
-					 Date  4.9.2018
+					 Date  5.9.2018
 
 
 Group Members
