@@ -88,12 +88,13 @@ We also great full to all out teachers for Computer University ( Mandalay ) who 
                                         Declaration
 
 	The information contained in these applications in Myanmar are true, correct and complete.
-	 We understand that any misrepresentation may invalidate my application arrangements. 
+	We understand that any misrepresentation may invalidate my application arrangements. 
 	We noted that all appointments are project details.
 
-Project Details
-Project Title	Apps in Myanmar
-Project ID	Geo-Mandalar Company Internship
+	Project Details
+		
+	Project Title		Apps in Myanmar
+	Project ID		Geo-Mandalar Company Internship
 
 
 
