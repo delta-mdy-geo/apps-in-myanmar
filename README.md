@@ -41,15 +41,10 @@ Daw Ank Phyu Win
 
 
 
-
-
-
-
-
-
-
-CONTENTS
-Page Number
+                                           CONTENTS
+									   
+									   Page Number
+									   
 Abstract    									 4
 Acknowledgement									 5
 Declaration 									 6
