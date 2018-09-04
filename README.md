@@ -154,9 +154,9 @@ This is word document.
 	6. Track changes in your code across versions. ...
 	7.  Integration options.
 	
-Understanding the GitHub Flow
-Link:
-https://guides.github.com/introduction/flow/
+	Understanding the GitHub Flow
+	Link:
+	https://guides.github.com/introduction/flow/
 
 
 1.2.3	What is Github page?
@@ -206,11 +206,6 @@ https://guides.github.com/introduction/flow/
 
 
 
-
-
-
-
-
 							Chapter 2 
 					          PROJECT DEVELOPMENT
 						  
@@ -218,7 +213,7 @@ https://guides.github.com/introduction/flow/
 
     2.1.1    Flow Chart Diagram
     2.1.2    Usecase Diagram
- .  2.1.3    Description of the Project
+    2.1.3    Description of the Project
  
               Application in Myanmar (AIM) is a web application. Application in Myanmar (AIM) is the useful application for user in IT fields. AIM provides the information for application developed in Myanmar. It describes all kinds of application details- Updated date, Size, Installs, Current Version, Requires Android, Offered By and Developer. This system also links with Google Play-store. So, if you want to download the app you want, you can download the app directly. That is why it also performs the third party web site. It has the various user feedback notifications to the admin and can update user's requirement on this system. It can provide user for more accurate information and more effective valuation of the time consuming and cost. It must keep the up-to-date records of all the applications in Myanmar. It can reduce storage size in traditional way. This system is implemented by using HTML, CSS, Javascipt, firebase authentication and firebase database.
 
@@ -245,9 +240,12 @@ https://guides.github.com/introduction/flow/
               Figure 6:  Footer of Apps in Myanmar
  
               Figure 6.1:  About Page of Apps in Myanmar
+	      
 
                           Chapter 3
                    EVALUATION AND CONCLUSION
+		   
+		   
 3.1   Conclusion
                 Application in Myanmar (AIM) assists in automating the existing manual system. This is a paperless work. It can be monitored and controlled remotely. It provides accurate information always. The application together gathered detail information can be saved and can be accessed at any time. So it is better to have a Web Based Information system. The authentication of this system is protected by login form. Therefore, only authorized persons (Admin or Hostel owners) can manage the application information. Normal users can only see the information. All users can get the required information without delay. This system is essential in searching application developed by Myanmar. AIM supports for user-friendly and up-to-date application information. Moreover, with the help of this web based app, not only user can get the application info but also the application can easily be downloaded.
 
