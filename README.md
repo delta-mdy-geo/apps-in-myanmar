@@ -179,23 +179,23 @@ https://guides.github.com/introduction/flow/
 	https://SuPoPoo.github.io
 	https://hanhtunaung.github.io
 
- 1.2.4   Firebase
+1.2.4   Firebase
  
-        Firebase Hosting is a static and dynamic web hosting service that launched on May 13, 2014. It supports hosting static files such as CSS, HTML, JAVASCRIPT, and other files as well as dynamic Note.js support through Cloud function.
-        Real time database, Storage, Authentication future for your user, you can also use cloud function for complicated logics in your app. Firebase is a back-end service that your app can interact with. It has a lot of features such as Real time database, User Authentication, file storage and much more.
+        	Firebase Hosting is a static and dynamic web hosting service that launched on May 13, 2014. It supports hosting static files such as CSS, HTML, JAVASCRIPT, and other files as well as dynamic Note.js support through Cloud function.
+       		 Real time database, Storage, Authentication future for your user, you can also use cloud function for complicated logics in your app. Firebase is a back-end service that your app can interact with. It has a lot of features such as Real time database, User Authentication, file storage and much more.
 	
-1    Real Time Database
+	1    Real Time Database
 
         Firebase provides a realtime database and backend as a service. The service provides application developers an API that allows application data to be synchronized across clients and stored on Firebase's cloud..The company provides client libraries that enable integration with Android, iOS, JavaScript, Java, Objective-C, Swift and Node.js applications. The database is also accessible through a REST API and bindings for several JavaScript frameworks such as AngularJS, React, Ember.js and Backbone.js. The REST API uses the Server-Sent Events protocol, which is an API for creating HTTP connections for receiving push notifications from a server. Developers using the realtime database can secure their data by using the company's server-side-enforced security rules. Cloud Firestore which is Firebase's next generation of the Realtime Database was released for beta use.
 
 
-2     Firebase Storage
+	2     Firebase Storage
 
              Firebase Storage provides secure file uploads and downloads for Firebase apps, regardless of network quality. The developer can use it to store images, audio, video, or other user-generated content. Firebase Storage is backed by Google Cloud Storage.
 
 
 
-3    Firebase Authentication
+	3    Firebase Authentication
 
        Firebase authentication is a service that can authenticate users using only client-side code. It supports social login providers Facebook, GitHub, Twitter and Google (and Google Play Games). Additionally, it includes a user management system whereby developers can enable user authentication with email and password login stored with Firebase.
 
