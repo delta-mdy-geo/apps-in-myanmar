@@ -85,7 +85,7 @@ We also wish to express our Supervisor, Daw Ank Phyu Win, Lecture of faculty of 
 We also great full to all out teachers for Computer University ( Mandalay ) who have taught and guided us during the period of study. Finally, we are thankful to our follow members who work together in this project and we also thanks again for the unity.
 
 
-Declaration
+                                        Declaration
 
 	The information contained in these applications in Myanmar are true, correct and complete.
 	 We understand that any misrepresentation may invalidate my application arrangements. 
