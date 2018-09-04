@@ -208,10 +208,12 @@ https://hanhtunaung.github.io
 
 
 
-Chapter 2 
-PROJECT DEVELOPMENT
+							Chapter 2 
+					          PROJECT DEVELOPMENT
+						  
 2.1   Design
-	2.1.1    Flow Chart Diagram
+
+    2.1.1    Flow Chart Diagram
 
 
 
