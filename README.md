@@ -5,8 +5,8 @@ This is apps-in-myanmar repo.
 					       For
 					   Company Name
                                         GEO MANDALAR Co.ltd
-Director
-U Ravi Chhabra
+					     Director
+                                          U Ravi Chhabra
 SUPERVISOR
 Daw Ank Phyu Win
 Submitted by
