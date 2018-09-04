@@ -43,12 +43,12 @@ Daw Ank Phyu Win
 
                                            CONTENTS
 									   
-									   Page Number
+									      Page Number
 									   
-Abstract    									 4
-Acknowledgement									 5
-Declaration 									 6
-List of Figures									 7
+Abstract    									  4
+Acknowledgement									  5
+Declaration 									  6
+List of Figures									  7
 CHAPTER 1 INTRODUCTION
 1.1	Introduction								 8
 1.2	Background  
