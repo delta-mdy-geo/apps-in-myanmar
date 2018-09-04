@@ -2,14 +2,18 @@
 This is apps-in-myanmar repo.
 					A PROJECT REPORT ON
 					“APPs in Myanmar”
+					
 					       For
 					   Company Name
-                                        GEO MANDALAR Co.ltd
+                                GEO MANDALAR INVESTMENT & TECHNOLOGY Co.. ltd
+				
 					     Director
                                           U Ravi Chhabra
+					  
 		                            SUPERVISOR
                                           Daw Ank Phyu Win
-					    Submitted by
+					  
+					 Submitted by
 				         Ma Khin Su Myat Noe
   				         Ma Su Po Po
 			                 Mg Han Htun Aung
