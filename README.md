@@ -158,19 +158,9 @@ Link:
 https://guides.github.com/introduction/flow/
 
 
-
-
-
-
-
-
-
-
-
-
-
 1.2.3	What is Github page?
-GitHub Pages are public webpages hosted for free through GitHub. GitHub users can create and host both personal websites (one allowed per user) and websites related to specific GitHub projects. Pages let you do the same things as GitHub, but if the repository is named a certain way and files inside it are HTML or Markdown, you can view the file like any other website. GitHub Pages is the self-aware version of GitHub. Pages also come with a powerful static site generator called Jekyll.
+
+        GitHub Pages are public webpages hosted for free through GitHub. GitHub users can create and host both personal websites (one allowed per user) and websites related to specific GitHub projects. Pages let you do the same things as GitHub, but if the repository is named a certain way and files inside it are HTML or Markdown, you can view the file like any other website. GitHub Pages is the self-aware version of GitHub. Pages also come with a powerful static site generator called Jekyll.
 	GitHub Pages is a static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository and doesn't support server-side code such as, PHP, Ruby, or Python.
 	You can create and publish GitHub Pages sites online using the Jekyll Theme Chooser. Or if you prefer to work locally, you can use GitHub Desktop or the command line.
 User, Organization, and Project Pages
@@ -178,14 +168,6 @@ User, Organization, and Project Pages
 	Project Pages sites are connected to a specific project, and the site files live on a branch within the project repository. 
 	User and Organization Pages sites are not tied to a specific project, and the site files live in a special repository dedicated to GitHub Pages files.
 Building our own site from scratch or generate one for our project
- 
- 
- 
- 
- 
-
- 
- 
 For example
 https://kaungmyatthumdy.github.io  
 https://Mohninyu.github.io
