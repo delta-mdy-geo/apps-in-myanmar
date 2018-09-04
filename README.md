@@ -25,19 +25,19 @@ This is apps-in-myanmar repo.
 					 Date  5.9.2018
 
 
-Group Members
+			Group Members
 
-Roll No		Name			Signature		Date
+	Roll No		Name			Signature		Date
 
-5CS-25	    Ma Khin Su Myat Noe		
-5CS-26	    Ma Su Po Po		
-5CS-27	    Mg Han Htun Aung		
-5CS-28	    Mg Kaung Myat Thu		
-5CS-29	    Ma Hla Yamin Htike		
-5CS-30	    Ma Hnin Yu Aung		
+	5CS-25	    Ma Khin Su Myat Noe		
+	5CS-26	    Ma Su Po Po		
+	5CS-27	    Mg Han Htun Aung		
+	5CS-28	    Mg Kaung Myat Thu		
+	5CS-29	    Ma Hla Yamin Htike		
+	5CS-30	    Ma Hnin Yu Aung		
 
-( Project Supervisor Name ) 	   Signature / Date 
-    Daw Ank Phyu Win
+	( Project Supervisor Name ) 	   Signature / Date 
+    	   Daw Ank Phyu Win
 
 
 
