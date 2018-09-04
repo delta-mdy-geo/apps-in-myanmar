@@ -141,9 +141,8 @@ With Git, the flow is multidirectional. Each change that is significant is marke
 
 
 
-1.2.2	What is Github?
-GitHub is a web hosting service for the source code of software and web development projects (or other text based projects) that use Git. In many cases, most of the code is publicly available, enabling developers to easily investigate, collaborate, download, use, improve, and remix that code. The container for the code of a specific project is called a repository.
-	GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+	1.2.2	What is Github?
+	GitHub is a web hosting service for the source code of software and web development projects (or other text based projects) that use Git. In many cases, most of the code is publicly available, enabling developers to easily investigate, collaborate, download, use, improve, and remix that code. The container for the code of a specific project is called a repository.GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
  
 
