@@ -1,10 +1,10 @@
 # apps-in-myanmar
 This is apps-in-myanmar repo.
-A PROJECT REPORT ON
-“APPs in Myanmar”
-For
-Company Name
-GEO MANDALAR Co.ltd
+					A PROJECT REPORT ON
+					“APPs in Myanmar”
+					       For
+					   Company Name
+                                        GEO MANDALAR Co.ltd
 Director
 U Ravi Chhabra
 SUPERVISOR
@@ -44,27 +44,27 @@ Daw Ank Phyu Win
 
 CONTENTS
 Page Number
-Abstract    											4
-Acknowledgement									5
-Declaration 										6
-List of Figures										7
+Abstract    									 4
+Acknowledgement									 5
+Declaration 									 6
+List of Figures									 7
 CHAPTER 1 INTRODUCTION
-1.1	Introduction								8
+1.1	Introduction								 8
 1.2	Background  
-1.2.1	What is Git?							9
-1.2.2	What is Github?							9
-1.2.3	What is Github page?						11
-1.2.4	What is Firebase?						13
-1.3	Objective of the project 						17
+1.2.1	What is Git?						                 9
+1.2.2	What is Github?							         9
+1.2.3	What is Github page?						        11
+1.2.4	What is Firebase?						        13
+1.3	Objective of the project 					        17
 CHAPTER 2 PROJECT DEVELOPMENT
 	2.1     Design									
-		2.1.1     Flow Chart Diagram						18
-		2.1.2     Use Case Diagram						19
-		2.1.3     Description							20
-		2.1.4     Implementation							21
+		2.1.1     Flow Chart Diagram					18
+		2.1.2     Use Case Diagram					19
+		2.1.3     Description						20
+		2.1.4     Implementation					21
 CHAPTER 3 EVALUATION AND CONCLUSION
-	3.1      Conclusion									27
-	3.2      REFERENCES								27
+	3.1      Conclusion						        27
+	3.2      REFERENCES							27
 
 
 
