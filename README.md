@@ -246,7 +246,7 @@ This is word document.
                                          	EVALUATION AND CONCLUSION
 		   
 		   
-3.1   Conclusion
+    3.1     Conclusion
                
 	       Application in Myanmar (AIM) assists in automating the existing manual system. This is a paperless work. It can be monitored and controlled remotely. It provides accurate information always. The application together gathered detail information can be saved and can be accessed at any time. So it is better to have a Web Based Information system. The authentication of this system is protected by login form. Therefore, only authorized persons (Admin or Hostel owners) can manage the application information. Normal users can only see the information. All users can get the required information without delay. This system is essential in searching application developed by Myanmar. AIM supports for user-friendly and up-to-date application information. Moreover, with the help of this web based app, not only user can get the application info but also the application can easily be downloaded.
 
