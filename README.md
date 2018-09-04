@@ -123,17 +123,18 @@ This is word document.
 	    Moreover, users can also see publisher’s details who were written these applications
 
 
-	1.2	Background of the system
-		Introduction to Git, Github and Github pages
-
-	Git, GitHub, and GitHub Pages are all very closely related. Imagine Git as the workflow to get things done and GitHub and GitHub 	 Pages as places to store the work you finish. Projects that use Git are stored publicly in GitHub and GitHub Pages, so in a very 	  generalized way, Git is what you do locally on your own computer and GitHub is the place where all this gets stored publicly on 	  a server.
+	1.2  Background of the system
+	      
+	      Introduction to Git, Github and Github pages
+		
+			Git, GitHub, and GitHub Pages are all very closely related. Imagine Git as the workflow to get things done and GitHub and GitHub 	 Pages as places to store the work you finish. Projects that use Git are stored publicly in GitHub and GitHub Pages, so in a very 	  generalized way, Git is what you do locally on your own computer and GitHub is the place where all this gets stored publicly on 	  a server.
 
 	1.2.1	What is Git?
-	Git is a version control system that tracks changes to files in a project over time. It typically records what the changes were 	(what was added? what was removed from the file?), who made the changes, notes and comments about the changes by the changer, 		and at what time the changes were made.
-	Git is for people who want to maintain multiple versions of their files in an efficient manner and travel back in time to visit 	different versions without juggling numerous files along with their confusing names stored at different locations. 
-	In the diagram below, each stage represents a “save”. Without Git, you cannot go back to any of the in between stages from the   initial draft and final draft. If you wanted to change the opening paragraph in the final draft, you’d have to delete data that you couldn’t recover. To work around this, we use the “save as” option, name it something different, delete the opening paragraph and start writing a new one.
- 	
-With Git, the flow is multidirectional. Each change that is significant is marked as important in a version, and you proceed. If you need to get back to earlier stages, you can without any loss of data. Presently, Google Docs “revision history” or Wikipedia’s “edit history” work in this sort of fashion. Git is just a lot more detailed and can get a lot more complex if needed.
+	
+			Git is a version control system that tracks changes to files in a project over time. It typically records what the changes were (what was added? what was removed from the file?), who made the changes, notes and comments about the changes by the changer, 		and at what time the changes were made.
+			Git is for people who want to maintain multiple versions of their files in an efficient manner and travel back in time to visit different versions without juggling numerous files along with their confusing names stored at different locations. 
+			In the diagram below, each stage represents a “save”. Without Git, you cannot go back to any of the in between stages from the   initial draft and final draft. If you wanted to change the opening paragraph in the final draft, you’d have to delete data that you couldn’t recover. To work around this, we use the “save as” option, name it something different, delete the opening paragraph and start writing a new one.
+ 			With Git, the flow is multidirectional. Each change that is significant is marked as important in a version, and you proceed. If you need to get back to earlier stages, you can without any loss of data. Presently, Google Docs “revision history” or Wikipedia’s “edit history” work in this sort of fashion. Git is just a lot more detailed and can get a lot more complex if needed.
  
 
 	1.2.2	What is Github?
