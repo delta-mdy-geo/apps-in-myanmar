@@ -96,31 +96,19 @@ We also great full to all out teachers for Computer University ( Mandalay ) who 
 	Project Title		Apps in Myanmar
 	Project ID		Geo-Mandalar Company Internship
 
+       			List of Figure
 
-
-
-
-
-
-
-
-
-
-
-
-List of Figure
-
-Figure 1						page-21
-Figure 1.1						page-21
-Figure 1.2						page-22
-Figure 2						page-23
-Figure 3						page-24
-Figure 4						page-24
-Figure 5						page-25
-Figure 5.1						page-25
-Figure 5.2						page-25
-Figure 6						page-26
-Figure 6.1						page-26
+	Figure 1						page-21
+	Figure 1.1						page-21
+	Figure 1.2						page-22
+	Figure 2						page-23
+	Figure 3						page-24
+	Figure 4						page-24
+	Figure 5						page-25
+	Figure 5.1						page-25
+	Figure 5.2						page-25
+	Figure 6						page-26
+	Figure 6.1						page-26
 
 
 
