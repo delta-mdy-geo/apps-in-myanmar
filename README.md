@@ -111,41 +111,20 @@ We also great full to all out teachers for Computer University ( Mandalay ) who 
 	Figure 6.1						page-26
 
 
-
-
-
-
-
-
-
-
 						  Chapter 1
 					         Introduction
-1.1	Introduction
+	1.1	Introduction
 
 
-	Apps in Myanmar will involve various applications in Myanmar
-	Users can download the applications and also see details that related applications
-	Moreover, users can also see publisher’s details who were written these applications
+	Apps in Myanmar will involve various applications in Myanmar
+	Users can download the applications and also see details that related applications
+	Moreover, users can also see publisher’s details who were written these applications
 
 
+	1.2	Background of the system
+		Introduction to Git, Github and Github pages
 
-
-
-
-
-
-
-	
-
-
-
-
-
-1.2	Background of the system
-Introduction to Git, Github and Github pages
-
-Git, GitHub, and GitHub Pages are all very closely related. Imagine Git as the workflow to get things done and GitHub and GitHub Pages as places to store the work you finish. Projects that use Git are stored publicly in GitHub and GitHub Pages, so in a very generalized way, Git is what you do locally on your own computer and GitHub is the place where all this gets stored publicly on a server.
+	Git, GitHub, and GitHub Pages are all very closely related. Imagine Git as the workflow to get things done and GitHub and GitHub 	 Pages as places to store the work you finish. Projects that use Git are stored publicly in GitHub and GitHub Pages, so in a very 	  generalized way, Git is what you do locally on your own computer and GitHub is the place where all this gets stored publicly on 	  a server.
 
 1.2.1	What is Git?
 Git is a version control system that tracks changes to files in a project over time. It typically records what the changes were (what was added? what was removed from the file?), who made the changes, notes and comments about the changes by the changer, and at what time the changes were made.
