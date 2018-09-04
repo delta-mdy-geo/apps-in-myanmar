@@ -242,8 +242,8 @@ This is word document.
               Figure 6.1:  About Page of Apps in Myanmar
 	      
 
-                          Chapter 3
-                   EVALUATION AND CONCLUSION
+                                         	         Chapter 3
+                                         	EVALUATION AND CONCLUSION
 		   
 		   
 3.1   Conclusion
