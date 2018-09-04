@@ -1,10 +1,10 @@
 # apps-in-myanmar
 This is apps-in-myanmar repo.
-A PROJECT REPORT ON
-“APPs in Myanmar”
-For
-Company Name
-GEO MANDALAR Co.ltd
+					A PROJECT REPORT ON
+					“APPs in Myanmar”
+					       For
+					   Company Name
+                                        GEO MANDALAR Co.ltd
 Director
 U Ravi Chhabra
 SUPERVISOR
