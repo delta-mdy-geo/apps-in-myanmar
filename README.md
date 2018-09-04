@@ -214,85 +214,34 @@ https://hanhtunaung.github.io
 2.1   Design
 
     2.1.1    Flow Chart Diagram
+    2.1.2    Usecase Diagram
+ .  2.1.3    Description of the Project
+ 
+              Application in Myanmar (AIM) is a web application. Application in Myanmar (AIM) is the useful application for user in IT fields. AIM provides the information for application developed in Myanmar. It describes all kinds of application details- Updated date, Size, Installs, Current Version, Requires Android, Offered By and Developer. This system also links with Google Play-store. So, if you want to download the app you want, you can download the app directly. That is why it also performs the third party web site. It has the various user feedback notifications to the admin and can update user's requirement on this system. It can provide user for more accurate information and more effective valuation of the time consuming and cost. It must keep the up-to-date records of all the applications in Myanmar. It can reduce storage size in traditional way. This system is implemented by using HTML, CSS, Javascipt, firebase authentication and firebase database.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.1.2    Usecase Diagram
- .
-
-
-
-
-
-
-
-
-
-
-
-2.1.3    Description of the Project
-Application in Myanmar (AIM) is a web application. Application in Myanmar (AIM) is the useful application for user in IT fields. AIM provides the information for application developed in Myanmar. It describes all kinds of application details- Updated date, Size, Installs, Current Version, Requires Android, Offered By and Developer. This system also links with Google Play-store. So, if you want to download the app you want, you can download the app directly. That is why it also performs the third party web site. It has the various user feedback notifications to the admin and can update user's requirement on this system. It can provide user for more accurate information and more effective valuation of the time consuming and cost. It must keep the up-to-date records of all the applications in Myanmar. It can reduce storage size in traditional way. This system is implemented by using HTML, CSS, Javascipt, firebase authentication and firebase database.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.1.4    Implementation
+     2.1.4    Implementation
 	 
-Figure 1:   Home Page of Apps in Myanmar
+              Figure 1:   Home Page of Apps in Myanmar
 
- 
-Figure 1.1: Home Page of Apps in Myanmar
+              Figure 1.1: Home Page of Apps in Myanmar
 
+              Figure 1.2:  Home Page of Apps in Myanmar
 
+	      Figure 2:   Top Application of Apps in Myanmar
  
-Figure 1.2:  Home Page of Apps in Myanmar
+              Figure 3:  Latest Application of Apps in Myanmar
+ 
+              Figure 4:  Publishers of Apps in Myanmar
+	      
+ 	      Figure 5: Login when Offline
 
-	 
-Figure 2:   Top Application of Apps in Myanmar
+              Figure 5.1: Login when Online 
  
-Figure 3:  Latest Application of Apps in Myanmar
- 
-Figure 4:  Publishers of Apps in Myanmar
- 		Figure 5: Login when Offline
+              Figure 5.2:  Sign in
 
+              Figure 6:  Footer of Apps in Myanmar
  
-Figure 5.1: Login when Online 
- 
-Figure 5.2:  Sign in
-
- 
-Figure 6:  Footer of Apps in Myanmar
- 
-Figure 6.1:  About Page of Apps in Myanmar
+              Figure 6.1:  About Page of Apps in Myanmar
 
                           Chapter 3
                    EVALUATION AND CONCLUSION
