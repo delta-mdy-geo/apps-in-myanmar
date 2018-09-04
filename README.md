@@ -158,8 +158,8 @@ Figure 6.1						page-26
 
 
 
-Chapter 1
-Introduction
+						  Chapter 1
+					         Introduction
 1.1	Introduction
 
 
