@@ -193,7 +193,8 @@ https://hanhtunaung.github.io
 
 
 3    Firebase Authentication
-Firebase Auth is a service that can authenticate users using only client-side code. It supports social login providers Facebook, GitHub, Twitter and Google (and Google Play Games). Additionally, it includes a user management system whereby developers can enable user authentication with email and password login stored with Firebase.
+
+       Firebase authentication is a service that can authenticate users using only client-side code. It supports social login providers Facebook, GitHub, Twitter and Google (and Google Play Games). Additionally, it includes a user management system whereby developers can enable user authentication with email and password login stored with Firebase.
 
 1.3	Objective of the project  
 
