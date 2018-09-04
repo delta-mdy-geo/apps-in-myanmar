@@ -198,16 +198,8 @@ https://hanhtunaung.github.io
 
 1.3	Objective of the project  
 
-	To easy download applications in Myanmar in same place
-	To understand the user about apps information without confusing 
-
-
-
-
-
-
-
-
+           To easy download applications in Myanmar in same place
+           To understand the user about apps information without confusing 
 
 
 
