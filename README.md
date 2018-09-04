@@ -41,19 +41,14 @@ Daw Ank Phyu Win
 
 
 
-
-
-
-
-
-
-
-CONTENTS
-Page Number
-Abstract    									 4
-Acknowledgement									 5
-Declaration 									 6
-List of Figures									 7
+                                           CONTENTS
+									   
+									      Page Number
+									   
+Abstract    									  4
+Acknowledgement									  5
+Declaration 									  6
+List of Figures									  7
 CHAPTER 1 INTRODUCTION
 1.1	Introduction								 8
 1.2	Background  
@@ -158,8 +153,8 @@ Figure 6.1						page-26
 
 
 
-Chapter 1
-Introduction
+						  Chapter 1
+					         Introduction
 1.1	Introduction
 
 
