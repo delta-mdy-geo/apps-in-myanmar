@@ -136,29 +136,20 @@ We also great full to all out teachers for Computer University ( Mandalay ) who 
 With Git, the flow is multidirectional. Each change that is significant is marked as important in a version, and you proceed. If you need to get back to earlier stages, you can without any loss of data. Presently, Google Docs “revision history” or Wikipedia’s “edit history” work in this sort of fashion. Git is just a lot more detailed and can get a lot more complex if needed.
  
 
-
-
-
-
-
-
 	1.2.2	What is Github?
 	GitHub is a web hosting service for the source code of software and web development projects (or other text based projects) that use Git. In many cases, most of the code is publicly available, enabling developers to easily investigate, collaborate, download, use, improve, and remix that code. The container for the code of a specific project is called a repository.GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
  
-
-
-
-
-What are the benefits of GitHub? (OR)  What are the main benefits of using GitHub?
-	 It makes it easy to contribute to your open source projects. To be honest, nearly every open-source project uses GitHub to manage their project. 
-1.  It makes it easy to contribute to your open source projects
-2.  Documentation. 
-3.  Showcase your work. ...
-4.  Markdown. Markdown allows you to use a simple text editor to write formatted documents.
-5.  GitHub is a repository. ...
-6. Track changes in your code across versions. ...
-7.  Integration options.
+	What are the benefits of GitHub? (OR)  What are the main benefits of using GitHub?
+	 It makes it easy to contribute to your open source projects. To be honest, nearly every open-source project uses GitHub to 	manage their project. 
+	1.  It makes it easy to contribute to your open source projects
+	2.  Documentation. 
+	3.  Showcase your work. ...
+	4.  Markdown. Markdown allows you to use a simple text editor to write formatted documents.
+	5.  GitHub is a repository. ...
+	6. Track changes in your code across versions. ...
+	7.  Integration options.
+	
 Understanding the GitHub Flow
 Link:
 https://guides.github.com/introduction/flow/
