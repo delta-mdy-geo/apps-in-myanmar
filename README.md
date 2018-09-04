@@ -9,11 +9,11 @@ This is word document.
 					   Company Name
                              GEO MANDALAR INVESTMENT & TECHNOLOGY Co.. ltd
 				
-					     Director
-                                          U Ravi Chhabra
+					      Director
+                                           U Ravi Chhabra
 					  
-		                            SUPERVISOR
-                                          Daw Ank Phyu Win
+		                             SUPERVISOR
+                                           Daw Ank Phyu Win
 					  
 					 Submitted by
 				         Ma Khin Su Myat Noe
@@ -118,9 +118,9 @@ This is word document.
 						 
 	1.1	Introduction
 
-            Apps in Myanmar will involve various applications in Myanmar
-	    Users can download the applications and also see details that related applications
-	    Moreover, users can also see publisher’s details who were written these applications
+            Apps In Myanmar(AIM) describes a search interface to Application information and investigates the search result presentation on information finding. By using this system, users can easily search the Applications in Myanmar with detail information. This system can reduce time wasting. Users can also know the latest Apps and Top Apps.
+	Moreover, user can download the application as the AIM links with the Google Play Store. So, with the help of this system, user can get about applications in Myanmar in one place. 
+
 
 
 	1.2  Background of the system
