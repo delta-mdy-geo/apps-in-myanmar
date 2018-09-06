@@ -26,7 +26,7 @@ This is word document.
 					 Date  5.9.2018
 
 
-						Group Members
+					Group Members
 
 	Roll No		Name			Signature		Date
 
@@ -168,11 +168,13 @@ This is word document.
 	You can create and publish GitHub Pages sites online using the Jekyll Theme Chooser. Or if you prefer to work locally, you can         use GitHub Desktop or the command line.
 	
 	User, Organization, and Project Pages
+	
 		There are two basic types of GitHub Pages sites: Project Pages sites, and User and Organization Pages sites. They are                   nearly identical but have some important differences.
 		
 	         Project Pages sites are connected to a specific project, and the site files live on a branch within the project                        repository. 
 		 
 	        User and Organization Pages sites are not tied to a specific project, and the site files live in a special repository                   dedicated to GitHub Pages files.
+	
 	
 	Building our own site from scratch or generate one for our project
 	
@@ -208,6 +210,7 @@ This is word document.
 
            To easy download applications in Myanmar in same place
            To understand the user about apps information without confusing 
+	   
 
 
 
@@ -272,6 +275,10 @@ This is word document.
 		http://www.mdl.com
 		
 		http://www.bootstrap.com
+		
+		https://github.com
+		
+		
 
 
 
