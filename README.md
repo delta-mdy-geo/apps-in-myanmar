@@ -3,7 +3,7 @@ This is apps-in-myanmar repo.
 This is word document.
 					
 					A PROJECT REPORT ON
-					“APPs in Myanmar”
+					“Applications in Myanmar”
 					
 					       For
 					   Company Name
