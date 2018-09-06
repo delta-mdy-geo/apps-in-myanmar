@@ -71,7 +71,8 @@ This is word document.
 
 
 
-         			                   Abstract
+         			         Abstract
+					 
 	Apps in Myanmar are applications which were developed in Burmese Developer
 	Users can easily download in this website
 	FrontEnd Dev and UI  Mockups using Material Design ( HTML, CSS, & Javascript  )
@@ -98,19 +99,19 @@ This is word document.
 	Project Title		Apps in Myanmar
 	Project ID		Geo-Mandalar Company Internship
 
-       			List of Figure
+       	List of Figure						Page Number
 
-	Figure 1						page-21
-	Figure 1.1						page-21
-	Figure 1.2						page-22
-	Figure 2						page-23
-	Figure 3						page-24
-	Figure 4						page-24
-	Figure 5						page-25
-	Figure 5.1						page-25
-	Figure 5.2						page-25
-	Figure 6						page-26
-	Figure 6.1						page-26
+	Figure 1						21
+	Figure 1.1						21
+	Figure 1.2						22
+	Figure 2						23
+	Figure 3						24
+	Figure 4						24
+	Figure 5						25
+	Figure 5.1						25
+	Figure 5.2						25
+	Figure 6						26
+	Figure 6.1						26
 
 
 						  Chapter 1
