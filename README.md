@@ -81,7 +81,8 @@ This is word document.
                                      Acknowledgement
 				     
 	First, we would like to thankful greatly following persons who have contributed directly or indirectly towards the success of this project.
-	We would like to respectfully thanks U Kyaw Swar Soe, Rector of Computer University ( Mandalay ), Dr. San San Tin,Pro Rector of Computer University(Mandalay), Dr. Aye Aye Chaw , and Dr. Mya Thida Kyaw,  for his kind permission to carry out this project, general guidance and workable environment during the period of study.
+	We would like to respectfully thanks U Kyaw Swar Soe, Rector of Computer University ( Mandalay ), Dr. San San Tin,Pro Rector of Computer University(Mandalay),
+	Dr. Aye Aye Chaw , andDr. Mya Thida Kyaw,  for his kind permission to carry out this project, general guidance and workable environment during the period of study.
 	We would like to express our Director, U Ravi Chhabra, Director of our Geo-Delta-Mdy group, for his guide way to create our project with successfully and nicely.
 	We also wish to express our Supervisor, Daw Ank Phyu Win, Lecture of faculty of Computing, Computer University ( Mandalay ), for her helpful advice, helpful encouragement numerous invaluable suggestion and comments.
 	We also great full to all out teachers for Computer University ( Mandalay ) who have taught and guided us during the period of study. Finally, we are thankful to our follow members who work together in this project and we also thanks again for the unity.
