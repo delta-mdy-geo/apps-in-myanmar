@@ -2,9 +2,8 @@
 This is apps-in-myanmar repo.
 This is word document.
 					
-					A PROJECT REPORT ON
-					“Applications in Myanmar”
-					
+					  A PROJECT REPORT ON
+				        “Applications in Myanmar”
 					       For
 					   Company Name
                              GEO MANDALAR INVESTMENT & TECHNOLOGY Co.. ltd
