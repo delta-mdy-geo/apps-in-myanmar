@@ -130,7 +130,7 @@ This is word document.
 		
 			Git, GitHub, and GitHub Pages are all very closely related. Imagine Git as the workflow to get things done and GitHub and GitHub Pages as places to store the work you finish. Projects that use Git are stored publicly in GitHub and GitHub Pages, so in a very generalized way, Git is what you do locally on your own computer and GitHub is the place where all this gets stored publicly on  a server.
 
-	1.2.1	What is Git?
+	       1.2.1	What is Git?
 	
 			Git is a version control system that tracks changes to files in a project over time. It typically records what the changes were (what was added? what was removed from the file?), who made the changes, notes and comments about the changes by the changer, and at what time the changes were made.
 			Git is for people who want to maintain multiple versions of their files in an efficient manner and travel back in time to visit different versions without juggling numerous files along with their confusing names stored at different locations. 
@@ -138,7 +138,7 @@ This is word document.
  			With Git, the flow is multidirectional. Each change that is significant is marked as important in a version, and you proceed. If you need to get back to earlier stages, you can without any loss of data. Presently, Google Docs “revision history” or Wikipedia’s “edit history” work in this sort of fashion. Git is just a lot more detailed and can get a lot more complex if needed.
  
 
-	1.2.2	What is Github?
+	     1.2.2	What is Github?
 	
 	GitHub is a web hosting service for the source code of software and web development projects (or other text based projects)             that use Git. In many cases, most of the code is publicly available, enabling developers to easily investigate, collaborate,           download, use, improve, and remix that code. The container for the code of a specific project is called a repository.GitHub is         a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
@@ -217,10 +217,12 @@ This is word document.
 2.1   Design
 
     2.1.1    Flow Chart Diagram
+    
     2.1.2    Usecase Diagram
+    
     2.1.3    Description of the Project
  
-              Application in Myanmar (AIM) is a web application. Application in Myanmar (AIM) is the useful application for user in IT fields. AIM provides the information for application developed in Myanmar. It describes all kinds of application details- Updated date, Size, Installs, Current Version, Requires Android, Offered By and Developer. This system also links with Google Play-store. So, if you want to download the app you want, you can download the app directly. That is why it also performs the third party web site. It has the various user feedback notifications to the admin and can update user's requirement on this system. It can provide user for more accurate information and more effective valuation of the time consuming and cost. It must keep the up-to-date records of all the applications in Myanmar. It can reduce storage size in traditional way. This system is implemented by using HTML, CSS, Javascipt, firebase authentication and firebase database.
+              Application in Myanmar (AIM) is a web application. Application in Myanmar (AIM) is the useful application for user in IT               fields. AIM provides the information for application developed in Myanmar. It describes all kinds of application details-               Updated date, Size, Installs, Current Version, Requires Android, Offered By and Developer. This system also links with                 Google Play-store. So, if you want to download the app you want, you can download the app directly. That is why it also                 performs the third party web site. It has the various user feedback notifications to the admin and can update user's                   requirement on this system. It can provide user for more accurate information and more effective valuation of the time                 consuming and cost. It must keep the up-to-date records of all the applications in Myanmar. It can reduce storage size in               traditional way. This system is implemented by using HTML, CSS, Javascipt, firebase authentication and firebase database.
 
      2.1.4    Implementation
 	 
@@ -251,7 +253,7 @@ This is word document.
                                          	EVALUATION AND CONCLUSION
 		   
 		   
-    3.1     Conclusion
+  3.1     Conclusion
                
 	       Application in Myanmar (AIM) assists in automating the existing manual system.This is a paperless work. It can be                      monitored and controlled remotely. It provides accurate information always. The application together gathered detail                    information can be saved and can be accessed at any time.
 	       
@@ -262,7 +264,7 @@ This is word document.
 	       AIM supports for user-friendly and up-to-date application information. Moreover, with the help of this web based app,                  not only user can get the application info but also the application can easily be downloaded.
 
     
-    3.2      REFERENCE
+  3.2      REFERENCE
 
 		
 		http://www.materializecss.com
