@@ -99,7 +99,7 @@ This is word document.
 	Project Title		Apps in Myanmar
 	Project ID		Geo-Mandalar Company Internship
 
-       	List of Figure						Page Number
+  	List of Figure					    Page Number
 
 	Figure 1						21
 	Figure 1.1						21
@@ -140,12 +140,12 @@ This is word document.
 
 	1.2.2	What is Github?
 	
-	GitHub is a web hosting service for the source code of software and web development projects (or other text based projects) that use Git. In many cases, most of the code is publicly available, enabling developers to easily investigate, collaborate, download, use, improve, and remix that code. The container for the code of a specific project is called a repository.GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+	GitHub is a web hosting service for the source code of software and web development projects (or other text based projects)             that use Git. In many cases, most of the code is publicly available, enabling developers to easily investigate, collaborate,           download, use, improve, and remix that code. The container for the code of a specific project is called a repository.GitHub is         a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
  
 	What are the benefits of GitHub? (OR)  What are the main benefits of using GitHub?
 	
-	 It makes it easy to contribute to your open source projects. To be honest, nearly every open-source project uses GitHub to 	manage their project. 
+	 It makes it easy to contribute to your open source projects. To be honest, nearly every open-source project uses GitHub to 	     manage their project. 
 	1.  It makes it easy to contribute to your open source projects
 	2.  Documentation. 
 	3.  Showcase your work. ...
@@ -161,14 +161,18 @@ This is word document.
 
 1.2.3	What is Github page?
 
-        GitHub Pages are public webpages hosted for free through GitHub. GitHub users can create and host both personal websites (one allowed per user) and websites related to specific GitHub projects. Pages let you do the same things as GitHub, but if the repository is named a certain way and files inside it are HTML or Markdown, you can view the file like any other website. GitHub Pages is the self-aware version of GitHub. Pages also come with a powerful static site generator called Jekyll.
-	GitHub Pages is a static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository and doesn't support server-side code such as, PHP, Ruby, or Python.
-	You can create and publish GitHub Pages sites online using the Jekyll Theme Chooser. Or if you prefer to work locally, you can use GitHub Desktop or the command line.
+        GitHub Pages are public webpages hosted for free through GitHub. GitHub users can create and host both personal websites (one           allowed per user) and websites related to specific GitHub projects. Pages let you do the same things as GitHub, but if the             repository is named a certain way and files inside it are HTML or Markdown, you can view the file like any other website.               
+	GitHub Pages is the self-aware version of GitHub. Pages also come with a powerful static site generator called Jekyll.
+	GitHub Pages is a static site hosting service designed to host your personal, organization, or project pages directly from a            GitHub repository and doesn't support server-side code such as, PHP, Ruby, or Python.
+	
+	You can create and publish GitHub Pages sites online using the Jekyll Theme Chooser. Or if you prefer to work locally, you can         use GitHub Desktop or the command line.
 	
 	User, Organization, and Project Pages
-		There are two basic types of GitHub Pages sites: Project Pages sites, and User and Organization Pages sites. They are nearly identical but have some important differences.
-	Project Pages sites are connected to a specific project, and the site files live on a branch within the project repository. 
-	User and Organization Pages sites are not tied to a specific project, and the site files live in a special repository dedicated to GitHub Pages files.
+		There are two basic types of GitHub Pages sites: Project Pages sites, and User and Organization Pages sites. They are                   nearly identical but have some important differences.
+		
+	         Project Pages sites are connected to a specific project, and the site files live on a branch within the project                        repository. 
+		 
+	        User and Organization Pages sites are not tied to a specific project, and the site files live in a special repository                   dedicated to GitHub Pages files.
 	
 	Building our own site from scratch or generate one for our project
 	
